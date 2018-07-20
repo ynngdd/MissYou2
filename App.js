@@ -37,6 +37,29 @@ const DrawerExample = DrawerNavigator(
     </ScrollView>
     </View>
   },
+  // {
+  //   drawerPosition:'left',
+  //   drawerWidth:200,
+  //   drawerBackgroundColor:'#333333',
+  //   contentOptions:{
+  //     activeTintColor:'#ffffff',
+  //     inactiveTintColor:'#000000',
+  //     activeBackgroundColor:'#ff5500',
+  //     inactiveBackgroundColor:'#ffffff',
+  //     itemsContainerStyle:{
+  //      marginTop:20 
+  //     },
+  //     itemStyle:{
+  //       marginTop:10
+  //     },
+  //     labelStyle:{
+  //       fontSize:16
+  //     },
+  //     iconContainerStyle:{
+  //       backgroundColor:"#000000"
+  //     }
+  //   }
+  // }
   
 
 )

@@ -21,7 +21,7 @@ export default class SettingsScreen extends Component {
         return <View>
         <StatusBar hidden/>
         <MainHeader
-        onDrawer={() => this.props.navigation.navigate("DrawerToggle")}/>
+        onDrawer={() => this.props.navigation.toggleDrawer()}/>
         <Text>ihcihcichima</Text>
         </View>
 

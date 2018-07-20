@@ -24,7 +24,7 @@ export default class FirstScreen extends Component {
         return <View>
         <StatusBar hidden/>
         <MainHeader
-        onDrawer={() => this.props.navigation.navigate("DrawerToggle")}/>
+        onDrawer={() => this.props.navigation.toggleDrawer()}/>
         <BodyContainer/>
         </View>
 
